@@ -172,7 +172,7 @@ spec:
   - name: nginx
     image: nginx
     imagePullPolicy: IfNotPresent
-  priorityClassName: high-priority
+  priorityClassName: high-priority-nonpreempting
 ```
 
 ### Effect of Pod priority on scheduling order
